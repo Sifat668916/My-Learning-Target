@@ -141,3 +141,50 @@ opacity: 0.7;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 }
+
+/* Inspiration styles here */
+
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+.inspiration-description{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inspiration-description h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.inspiration-description p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity:0.7 ;
+    
+}
+.inspiration-video{
+    margin-top: 48px;
+    width: 100%;
+    height: 614px;
+    border-radius: 16px;
+    display: flex;
+    padding: 32px 32px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    align-items: center;
+}
+.inspiration-video video{
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    border: red 2px solid;
+    border-radius: 16px;
+
+}
