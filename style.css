@@ -62,3 +62,82 @@
     font-weight: 600;
 
 }
+
+
+/* why-dev section styles here */
+
+.why-dev-container{
+    background-color: #fafafb;
+    max-width: 1140px;
+    height: 1393px;
+    padding: 80px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-title h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.why-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.why-description{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+
+}
+.des-text{
+    width: 477px;
+    height: 219px;
+    text-align: left;
+}
+.des-img img{
+    width: 259.56px;
+    height: 217.01px;
+}
+.des-text h4{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+}
+.des-text p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 32px;
+opacity: 0.7;
+}
+.des-text button{
+    padding: 12px 20px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+}
