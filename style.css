@@ -184,7 +184,77 @@ opacity: 0.7;
     width: 1076px;
     height: 550px;
     margin: 0 auto;
-    border: red 2px solid;
     border-radius: 16px;
 
+}
+
+/* current target style here */
+.current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+.target-title{
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.target-title h3{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.target-title p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+}
+.card-container{
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.target-card{
+    width: 364px;
+    height: 299px;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+.target-card img{
+    width: 56px;
+    height: 56px;
+}
+.target-card h4{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin-bottom: 8px;
+}
+.target-card p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 26px;
+}
+.target-card a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+.pink{
+    background-color:#fff6f4 ;
+}
+.purple{
+    background-color:#f2f6fe ;
+}
+.yellow{
+    background-color:#fffdf2 ;
 }
