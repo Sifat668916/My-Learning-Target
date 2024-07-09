@@ -53,6 +53,7 @@
 .banner-content button{
     padding: 21px 24px;
     border: none;
+    cursor: pointer;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: white;
@@ -137,6 +138,7 @@ opacity: 0.7;
 }
 .des-text button{
     padding: 12px 20px;
+    cursor: pointer;
     box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
@@ -257,4 +259,71 @@ line-height: 19px;
 }
 .yellow{
     background-color:#fffdf2 ;
+}
+
+/* I need support section starts here */
+.support-container{
+    width: 1140px;
+    height: 313px;
+    background-image: url("assets/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 48px;
+    border-radius: 16px;
+    margin-top: 49px;
+    margin-bottom: 80px;
+}
+.support-content{
+    width: 1144px;
+    height: 185px;
+    border-radius: 16px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.support-content h2{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+
+}
+.support-content p{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+opacity: 0.7;
+}
+.support-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.support-mail input{
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 47px;
+}
+.support-mail button{
+    border: none;
+    cursor: pointer;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
 }
