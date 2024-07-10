@@ -39,6 +39,8 @@ nav button a{
     max-width: 100%;;
     margin: 0 auto;
     height: 652px;
+    border: 2px solid gray;
+    border-style: dashed;
     background-image: url("assets/Hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
